@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "cy:run": "cypress run"
+    "cy:run:1": "cypress run --spec 'cypress/e2e/1-getting-started/*'",
+    "cy:run:2": "cypress run --spec 'cypress/e2e/2-advanced-examples/cookies.cy.js'"
   },
   "devDependencies": {
     "cypress": "^13.3.2"
